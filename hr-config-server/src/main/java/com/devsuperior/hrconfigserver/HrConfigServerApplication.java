@@ -22,4 +22,5 @@ public class HrConfigServerApplication implements CommandLineRunner {
 		System.out.println("USERNAME = " + username);
 	}
 
+	//git commit 
 }
