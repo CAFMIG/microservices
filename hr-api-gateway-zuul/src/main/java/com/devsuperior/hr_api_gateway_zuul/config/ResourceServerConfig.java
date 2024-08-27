@@ -1,6 +1,5 @@
 package com.devsuperior.hr_api_gateway_zuul.config;
 
-import org.apache.tomcat.util.file.ConfigurationSource.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -19,7 +18,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter{
 
     private static final String[] PUBLIC = {"/hr-oauth/oauth/token"};
     private static final String[] OPERATOR = {"/hr-worker/**"};
-    private static final String[] ADMIN = {"/hr-payroll/**", "/hr-user/**"};
+    private static final String[] ADMIN = {"/hr-payroll/**", "/hr-user/**", "/actuator/**", "/hr-worker/actuator/**", "/hr-oauth/actuator/**"};
 
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
