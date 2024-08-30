@@ -1,4 +1,4 @@
-package com.devsuperior.hr_api_gateway_zuul;
+package com.devsuperior.hrapigatewayzuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

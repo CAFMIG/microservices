@@ -1,4 +1,4 @@
-package com.devsuperior.hr_api_gateway_zuul.config;
+package com.devsuperior.hrapigatewayzuul.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
